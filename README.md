@@ -1,5 +1,5 @@
 # AutomaticPackaging-of-ipa
-自动化打包ipa
+***自动化打包ipa****
 
 * ![开始执行脚本](https://github.com/cuishengxi/AutomaticPackaging-of-ipa/blob/master/开始执行shell.png)
 -----------------
@@ -194,7 +194,7 @@ exit 0
 
 -------
 
-iOS 应用的证书选择
+****iOS 应用的证书选择****  直通- [蒲公英](https://www.pgyer.com/doc/view/app_developer_account)
 
 对于一个未上线 App Store 的应用，一般来说，开发者如果需要将应用安装到某些用户的设备上，就需要将应用导出为这些设备可以直接安装的安装包（.ipa文件），安装包能否正确导出，是决定了应用能否被正确安装到设备上的关键因素。其中，最关键的一个因素是，导出安装包时，应用所使用的证书（即：签名方式）。
 
@@ -204,7 +204,7 @@ Ad-hoc 方式
 In-house 方式
 其中，具体使用哪种方式，取决于开发者拥有苹果开发者账号的类型。例如，如果开发者拥有的是苹果个人开发者账号，则可以使用 Ad-hoc 方式；如果拥有的是苹果企业开发者账号，则可以使用 In-house 方式。关于苹果开发者账号支持的证书类型，请见下表：
 
-账号类型	价格	可以发布AppStore?	可以通过蒲公英安装?	支持安装设备数量	申请条件	证书类型
+账号类型	价格	可以发布AppStore?	可以通过[蒲公英](https://www.pgyer.com/doc/view/app_developer_account)安装?	支持安装设备数量	申请条件	证书类型
 个人账号	$99	可以	可以	100	无限制	Ad Hoc, App Store
 公司账号	$99	可以	可以	100	DUNS编码	Ad Hoc, App Store
 企业账号	$299	不可以	可以	无限制	DUNS编码	Ad Hoc, In House
@@ -218,11 +218,11 @@ In-house 方式
 Ad-hoc
 In-house
 App-Store
-蒲公英会根据打包证书的不同，分别显示为内测版、企业版、App-Store版。
+[蒲公英](https://www.pgyer.com/doc/view/app_developer_account)会根据打包证书的不同，分别显示为内测版、企业版、App-Store版。
 
 关于这三种类型的证书，区别如下表所示：
 
-证书名称	蒲公英显示	蒲公英支持的安装范围	支持的苹果开发者类型
+证书名称	[蒲公英](https://www.pgyer.com/doc/view/app_developer_account)显示	[蒲公英](https://www.pgyer.com/doc/view/app_developer_account)支持的安装范围	支持的苹果开发者类型
 Ad-hoc	内测版	需要把设备UDID添加到证书才可安装	个人账号、公司账号、教育账号、企业账号
 In-house	企业版	任何iOS设备均可安装	企业账号
 App-Store	App-Store	只能通过App Store安装	个人账号、公司账号、教育账号
