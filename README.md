@@ -210,7 +210,7 @@ In-house 方式
 |公司账号	|$99	|可以	|可以	|100	|DUNS编码	|Ad Hoc, App Store|
 |企业账号	|$299	|不可以	|可以	|无限制	|DUNS编码|	Ad Hoc, In House|
 |教育账号	|$0|	可以	|可以	|100	|教育机构	|Ad Hoc, App Store|
-关于导出时，具体的操作方式，请查看：打包 iOS 的 IPA 文件
+[关于导出时，具体的操作方式，请查看：打包 iOS 的 IPA 文件](https://www.pgyer.com/doc/view/build_ipa)
 
 三种证书签名的区别
 
