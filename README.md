@@ -235,7 +235,7 @@ App-Store
 其中，
 ipa文件就是我们需要的安装包。
 DistributionSummary.plist文件是一些详细的签名信息。
-ExportOptions.plist文件其实就是我们在exportArchive命令时要用的，但在exportArchive之后会自动生成一个完整的文件。如果不知道该怎么写这个配置文件的话，可以直接参考我demo中生成的这个plist文件。
+ExportOptions.plist文件其实就是我们在exportArchive命令时要用的，但在exportArchive之后会自动生成一个完整的文件。其实Package文件夹就是你要的所有东西了。
 Packaging.log这个文件就是打包的时候产生的log了，可以查看日志记录。
 
 至此，自动化打包已经完成了。
