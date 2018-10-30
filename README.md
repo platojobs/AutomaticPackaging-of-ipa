@@ -223,9 +223,10 @@ App-Store
 
 关于这三种类型的证书，区别如下表所示：
 
-证书名称	[蒲公英](https://www.pgyer.com/doc/view/app_developer_account)显示	[蒲公英](https://www.pgyer.com/doc/view/app_developer_account)支持的安装范围	支持的苹果开发者类型
-Ad-hoc	内测版	需要把设备UDID添加到证书才可安装	个人账号、公司账号、教育账号、企业账号
-In-house	企业版	任何iOS设备均可安装	企业账号
+|证书名称	|[蒲公英](https://www.pgyer.com/doc/view/app_developer_account)显示|	[蒲公英](https://www.pgyer.com/doc/view/app_developer_account)支持的安装范围|	支持的苹果开发者类型|
+|:---|:---:|---:|:---|
+|Ad-hoc	|内测版	|需要把设备UDID添加到证书才可安装	|个人账号、公司账号、教育账号、企业账号|
+|In-house|	企业版	|任何iOS设备均可安装	|企业账号|
 App-Store	App-Store	只能通过App Store安装	个人账号、公司账号、教育账号
 
 *![结束-输入文件](https://github.com/cuishengxi/AutomaticPackaging-of-ipa/blob/master/屏幕快照%202018-10-30%20下午3.58.43.png)
