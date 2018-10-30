@@ -204,11 +204,12 @@ Ad-hoc 方式
 In-house 方式
 其中，具体使用哪种方式，取决于开发者拥有苹果开发者账号的类型。例如，如果开发者拥有的是苹果个人开发者账号，则可以使用 Ad-hoc 方式；如果拥有的是苹果企业开发者账号，则可以使用 In-house 方式。关于苹果开发者账号支持的证书类型，请见下表：
 
-账号类型	价格	可以发布AppStore?	可以通过[蒲公英](https://www.pgyer.com/doc/view/app_developer_account)安装?	支持安装设备数量	申请条件	证书类型
-个人账号	$99	可以	可以	100	无限制	Ad Hoc, App Store
-公司账号	$99	可以	可以	100	DUNS编码	Ad Hoc, App Store
-企业账号	$299	不可以	可以	无限制	DUNS编码	Ad Hoc, In House
-教育账号	$0	可以	可以	100	教育机构	Ad Hoc, App Store
+|账号类型	|价格	|可以发布AppStore?|	可以通过[蒲公英](https://www.pgyer.com/doc/view/app_developer_account)安装?	|支持安装设备数量|申请条件|证书类型|
+|:---|:---:|---:|:---|:---:|---:|---:|
+|个人账号	|$99|	可以	|可以	|100	|无限制	|Ad Hoc, App Store|
+|公司账号	|$99	|可以	|可以	|100	|DUNS编码	|Ad Hoc, App Store|
+|企业账号	|$299	|不可以	|可以	|无限制	|DUNS编码|	Ad Hoc, In House|
+|教育账号	|$0|	可以	|可以	|100	|教育机构	|Ad Hoc, App Store|
 关于导出时，具体的操作方式，请查看：打包 iOS 的 IPA 文件
 
 三种证书签名的区别
