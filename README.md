@@ -239,4 +239,3 @@ ExportOptions.plist文件其实就是我们在exportArchive命令时要用的，
 Packaging.log这个文件就是打包的时候产生的log了，可以查看日志记录。
 
 至此，自动化打包已经完成了。
-App-Store	App-Store	只能通过App Store安装	个人账号、公司账号、教育账号
